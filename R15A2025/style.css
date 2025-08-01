@@ -263,7 +263,7 @@ body {
 /* Memory Section */
 .memory-section {
     position: relative;
-    height: 250px;
+    height: 300px;
     margin: 20px 0;
     overflow: hidden;
 }
