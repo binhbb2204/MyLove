@@ -357,7 +357,7 @@ const romanticQuotes = [
     "My love for you is stronger than my WiFi connection 💓💖",
     "You're the most beautiful avatar that came to life 💭✨",
     "Risa, you're my favorite everything, in-game and IRL 💕🌸",
-    "With you, every day is like winning the lottery in Bloxburg 💌💘",
+    "With you, every day is like winning the lottery 💌💘",
     "You're my real-life princess, better than any game ��"
 ];
 
