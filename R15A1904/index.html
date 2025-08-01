@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Love for Risa ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background">
+        <!-- Flying hearts container -->
+        <div class="hearts-container" id="heartsContainer"></div>
+        
+        <!-- Main content -->
+        <div class="main-container">
+            <div class="love-card">
+                <h1 class="title">For My Beautiful Risa 💕</h1>
+                
+                <!-- Photo section -->
+                <div class="photo-section">
+                    <div class="photo-container">
+                        <img src="risa.jpg" alt="Beautiful memories" class="love-photo active" id="photo1">
+                        <img src="risa2.png" alt="Sweet moments" class="love-photo" id="photo2">
+                        <img src="risa3.png" alt="Happy times" class="love-photo" id="photo3">
+                        <img src="risa4.png" alt="Our love" class="love-photo" id="photo4">
+                        <img src="risa5.png" alt="Forever together" class="love-photo" id="photo5">
+                        <div class="photo-placeholder active" id="placeholder1">
+                            <div class="placeholder-content">
+                                <span class="placeholder-icon">📸</span>
+                                <p>Add your beautiful photo here</p>
+                                <small>Replace "photo1.jpg" with your image</small>
+                            </div>
+                        </div>
+                        <div class="photo-placeholder" id="placeholder2">
+                            <div class="placeholder-content">
+                                <span class="placeholder-icon">💕</span>
+                                <p>Another sweet memory</p>
+                                <small>Replace "photo2.jpg" with your image</small>
+                            </div>
+                        </div>
+                        <div class="photo-placeholder" id="placeholder3">
+                            <div class="placeholder-content">
+                                <span class="placeholder-icon">🌹</span>
+                                <p>A special moment</p>
+                                <small>Replace "photo3.jpg" with your image</small>
+                            </div>
+                        </div>
+                        <div class="photo-placeholder" id="placeholder4">
+                            <div class="placeholder-content">
+                                <span class="placeholder-icon">✨</span>
+                                <p>Your favorite photo</p>
+                                <small>Replace "photo4.jpg" with your image</small>
+                            </div>
+                        </div>
+                        <div class="photo-placeholder" id="placeholder5">
+                            <div class="placeholder-content">
+                                <span class="placeholder-icon">💖</span>
+                                <p>Together forever</p>
+                                <small>Replace "photo5.jpg" with your image</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="photo-dots">
+                        <span class="dot active" data-photo="0"></span>
+                        <span class="dot" data-photo="1"></span>
+                        <span class="dot" data-photo="2"></span>
+                        <span class="dot" data-photo="3"></span>
+                        <span class="dot" data-photo="4"></span>
+                    </div>
+                </div>
+                
+                <div class="memory-section">
+                    <div class="memory-item active" data-memory="0">
+                        <h2>Our First Meeting in Bloxburg 🏠</h2>
+                        <p>Remember when we first met in Roblox Welcome to Bloxburg? I never thought I'd find my soulmate building virtual houses, but there you were ✨💕</p>
+                    </div>
+                    
+                    <div class="memory-item" data-memory="1">
+                        <h2>Building Our Love 🏡</h2>
+                        <p>The way we knew each other to create today's relationship... it was like we were meant to be a team from the start 💖</p>
+                    </div>
+                    
+                    <div class="memory-item" data-memory="2">
+                        <h2>From Virtual to Reality 💝</h2>
+                        <p>Risa, you made everything better - from our Roblox adventures to real life. You're my player two in this game called love 🎮�</p>
+                    </div>
+                    
+                    <div class="memory-item" data-memory="3">
+                        <h2>Your Beautiful Laugh 😊</h2>
+                        <p>Whether we're playing games together or just talking on Instagram, your laugh is the most beautiful sound in my world. You light up every moment �</p>
+                    </div>
+                    
+                    <div class="memory-item" data-memory="4">
+                        <h2>My Forever Player Two 💖</h2>
+                        <p>Risa, you're not just my girlfriend, you're my best friend, my gaming partner, and my everything. I love you more than all the Robux in the world! �✨</p>
+                    </div>
+                </div>
+                
+                <div class="controls">
+                    <button class="nav-btn" id="prevBtn">← Previous</button>
+                    <button class="nav-btn" id="nextBtn">Next →</button>
+                </div>
+                
+                <div class="love-counter">
+                    <h3>My Love Level: <span id="loveCounter">∞</span></h3>
+                    <div class="love-bar">
+                        <div class="love-fill"></div>
+                    </div>
+                </div>
+                
+                <button class="surprise-btn" id="surpriseBtn">Click for a Surprise! 💝</button>
+            </div>
+        </div>
+        
+        <!-- Surprise modal -->
+        <div class="surprise-modal" id="surpriseModal">
+            <div class="surprise-content">
+                <h2>You Are My Everything! 💕</h2>
+                <div class="surprise-hearts">
+                    <span class="big-heart">💖</span>
+                    <span class="big-heart">💕</span>
+                    <span class="big-heart">💝</span>
+                </div>
+                <p>Risa, you make every day feel like Valentine's Day. I love you to the moon and back! 🌙⭐</p>
+                <button class="close-surprise" id="closeSurprise">Close ✨</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
